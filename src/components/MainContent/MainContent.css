@@ -1,0 +1,4 @@
+.MainContent__container{
+    background-color: #e6e8e8;
+    height: calc(100vh - 80px);
+}

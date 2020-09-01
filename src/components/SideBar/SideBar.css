@@ -1,0 +1,17 @@
+.SideBar__container{
+    background-color: #545454;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    border-right: 1px solid #4a4a4a ;
+}
+.SideBar__avatar--orange {
+    margin: 5px 0px;
+    background-color: #ed938b;
+}
+.SideBar__avatar--purple{
+    margin: 5px 0px;
+}

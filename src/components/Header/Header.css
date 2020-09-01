@@ -1,0 +1,22 @@
+.Header__container{
+    background-color: #434343;
+    height: 40px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    align-items: center;
+}
+.Header__container > div > button > img {
+    width: 20px;
+}
+.Header__container > div > button {
+    height: 30px;
+}
+.Header__searchBox{
+    padding: 5px 15px;
+    background-color: #555555;
+    border: none;
+    border-radius: 3px;
+    color: #999999;
+}
