@@ -24,3 +24,9 @@
     width: 70px;
     padding-left:15px ;
 } 
+
+.Queues__Options{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}

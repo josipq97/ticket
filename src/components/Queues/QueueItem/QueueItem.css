@@ -1,0 +1,9 @@
+.QueueItem__container{
+    display: flex;
+    width: 220px;
+    align-items: space-between;
+}
+
+.QueueItem__container p{
+    padding: 5px 20px;
+}
