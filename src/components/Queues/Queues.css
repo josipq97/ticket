@@ -2,31 +2,41 @@
     background-color: #5e5e5e;
     height: calc(100vh - 80px);
     color: #A9ADB0;
+    overflow: auto;
+    box-sizing: border-box;
 }
 
 .Queues__container header{
     margin-top: 15px;
     display: flex;
     justify-content: space-between;
-    padding-right: 15px;
+    align-content: center;
+    margin-right: 30px;
 }
 .Queues__container header div{
     display: flex;
     justify-content: flex-start;
+    align-items: center;
 }
 .Queues__container header img {
     width: 15px;
+    height: 15px;
     float: left;
 }
 
 .Queues__container header div h4{
     display: block;
-    width: 70px;
-    padding-left:15px ;
+    width: 90px;
+    margin-left: 20px;
 } 
 
 .Queues__Options{
     display: flex;
     flex-direction: column;
     align-content: center;
+    margin-top: 10px;
+}
+
+.Queues__container > h4 {
+    margin: 30px 20px 10px 20px;
 }

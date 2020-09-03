@@ -1,9 +1,24 @@
 .QueueItem__container{
-    display: flex;
     width: 220px;
-    align-items: space-between;
-}
+    padding: 5px 0px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 
+}
+.QueueItem__container:hover{
+    background-color: #51a3cc;
+    color: white;
+}
 .QueueItem__container p{
-    padding: 5px 20px;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+.QueueItem__name {
+    margin-left: 20px;
+}
+.QueueItem__value {
+    margin-right: 20px;
 }

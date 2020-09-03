@@ -9,7 +9,7 @@ const Queues = () => {
         <div className="Queues__container">
             <header>
                 <div>
-                    <h4>Queues</h4>
+                    <h4>QUEUES</h4>
                     <img src={Cog} alt="cogIcon"/>
                 </div>
                 <h3>+</h3>
@@ -25,7 +25,21 @@ const Queues = () => {
  
             </div>
 
+            <h4>STATUSES</h4>
+            <QueueItem name="New" value="" />
+            <QueueItem name="Open" value="" />
+            <QueueItem name="Closed" value="" />
+            <QueueItem name="Solved" value="" />
 
+            <h4>CATEGORIES</h4>
+            <QueueItem name="Acquisition" value="" />
+            <QueueItem name="Administration" value="" />
+            <QueueItem name="Billing" value="" />
+            <QueueItem name="Customer support" value="" />
+            <QueueItem name="Default Category" value="" />
+            <QueueItem name="Human Resource" value="" />
+            <QueueItem name="Operation" value="" />
+            <QueueItem name="Product support" value="" />
 
             <div>
                 
