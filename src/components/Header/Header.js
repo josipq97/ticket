@@ -1,8 +1,5 @@
 import React from 'react';
 import "./Header.css";
-import avatar from "../../assets/img/avatar.jpg"
-import downArrow from "../../assets/img/downArrow.jpg"
-import bell from "../../assets/img/bell.jpg"
 
 
 
@@ -14,11 +11,11 @@ const Header = () => {
             <input className="Header__searchBox" type="text" placeholder="Search Tickets"/>
             <div>
                 <button className="Header__menuButton">
-                    <img src={avatar} alt=""/>
-                    <img src={downArrow} alt=""/>
+                <i class="fas fa-user"></i>
+                    <i class="fas fa-sort-down"></i>
                 </button>
                 <button className="Header__notificationButton">
-                    <img src={bell} alt=""/>
+                <i class="fas fa-bell"></i>
                 </button>
             </div>
         </div>

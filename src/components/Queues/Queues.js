@@ -1,6 +1,5 @@
 import React from 'react';
 import "./Queues.css";
-import Cog from "../../assets/img/cog.png"
 import QueueItem from "./QueueItem/QueueItem"
 
 
@@ -10,7 +9,7 @@ const Queues = () => {
             <header>
                 <div>
                     <h4>QUEUES</h4>
-                    <img src={Cog} alt="cogIcon"/>
+                    <i class="fas fa-cog"></i>
                 </div>
                 <h3>+</h3>
             </header>
