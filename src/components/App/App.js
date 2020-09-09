@@ -24,5 +24,5 @@ function App() {
 export default App;
 
 
-// queues -> dodaj component queue
+// Zavrsi ticket item
 // kreiraj novi footer

@@ -1,4 +1,55 @@
 .MainContent__container{
     background-color: #e6e8e8;
     height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.MainContent__container button {
+    border: none;
+    background-color: #E6E8E8;
+
+}
+
+.MainContent__container > header {
+    width: 90%;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.MainContent__container > header > h1{
+    font-weight: normal;
+}
+
+.filterContainer{
+    display: flex;
+}
+
+.filterContainer > div {
+    margin: 0px 20px;
+}
+.reverseOrder{
+    margin: 0px 10px;
+}
+.orderByButton {
+    margin: 0px 10px;
+}
+.fa-chevron-down{
+    margin-left: 5px;
+}
+.MainContent__container > header button{
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+.MainContent__container > header button:hover{
+    background-color: white;
+}
+
+.reverseOrder > i{
+    transform: rotate(90deg)
+}
+.numberOfItemsDisplayedButton {
+    margin: 0px 10px;
+}
+

@@ -1,0 +1,13 @@
+.Ticket__container{
+    width: 90%;
+}
+
+.Ticket__top{
+    background-color: brown;
+    height: 50px;
+}
+
+.Ticket__bottom{
+    background-color: royalblue;
+    height: 40px;
+}
