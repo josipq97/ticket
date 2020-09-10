@@ -1,13 +1,89 @@
 .Ticket__container{
     width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
 }
 
 .Ticket__top{
-    background-color: brown;
-    height: 50px;
+    background-color: #ffffff;
+    height: 70px;
+    border-bottom: 1px solid #e6e8e8;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+}
+.Ticket__id__container{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.Ticket__top__id{
+    font-size: 0.8em;
+    text-align: center;
+    padding: 3px 0px;
+}
+.Ticket__top__status{
+    font-size: 0.8em;
+    background-color: #0066cc;
+    color: white;
+    text-align: center;
+    padding: 3px 0px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.Ticket__text__container{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Ticket__top__subject{
+    font-weight: bold;
+    
+}
+.Ticket__top__subject span{
+    font-size: 0.8em;
+    color: #b1b7bd;
+    margin-left: 15px;
+    font-weight: 550;
+    align-self: center;
+}
+.Ticket__top__description{
+    font-size: 0.9em;
+    color: #b1b7bd;
+    padding: 2px;
 }
 
 .Ticket__bottom{
-    background-color: royalblue;
-    height: 40px;
+    display: flex;
+    background-color: #fafafa;
+    height: 50px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pinned, .favourite, .more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    box-sizing: border-box;
+    border-right: 1px solid #e6e8e8;
+    height: 100%;
+    color: #bdbcbc;
+}
+.more i{
+    border: 1px solid #bdbcbc;
+    border-radius: 50%;
+    padding: 5px;
+}
+.pinned i{
+    font-size: 1.3em;
+    transform: rotate(35deg)
+}
+.favourite i{
+    font-size: 1.3em;
 }
