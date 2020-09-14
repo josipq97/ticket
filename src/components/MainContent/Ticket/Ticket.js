@@ -1,5 +1,6 @@
 import React from 'react';
-import "./Ticket.css"
+import "./Ticket.css";
+import TicketItem from "./TicketItem/TicketItem";
 
 const Ticket = () => {
     return (
@@ -15,31 +16,13 @@ const Ticket = () => {
                 </div>
             </div>
             <div className="Ticket__bottom">
-                <div className="pinned">
-                    <i class="fas fa-thumbtack"></i>
-                </div>
-                <div className="favourite">
-                    <i class="fas fa-star"></i>
-                </div>
-                <div className="more">
-                    <i class="fas fa-ellipsis-h"></i>
-                </div>
-                <div className="assignedTo">
-                    <i class="fas fa-ellipsis-h"></i>
-                </div>
-                <div className="raisedBy">
-                    <i class="fas fa-ellipsis-h"></i>
-                </div>
-                <div className="priority">
-                    <i class="fas fa-ellipsis-h"></i>
-                </div>
-                <div className="category">
-                    <i class="fas fa-ellipsis-h"></i>
-                </div>
-                <div className="due">
-                    <i class="fas fa-ellipsis-h"></i>
-                </div>
-
+                <TicketItem type="pinned" img="fas fa-thumbtack"/>
+                <TicketItem type="favourite" img="fas fa-star"/>
+                <TicketItem type="more" img="fas fa-ellipsis-h"/>
+                <TicketItem type="Asigned to" name="David Mackenzie" />
+                <TicketItem type="Raised By" name="Melissa Smith" />
+                <TicketItem type="Priority" text="medium"/>
+                <TicketItem type="Due Date" text="in 1 Day"/>
             </div>
         </div>
     );

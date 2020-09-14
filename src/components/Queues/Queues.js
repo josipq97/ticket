@@ -14,7 +14,7 @@ const Queues = () => {
                 <h3>+</h3>
             </header>
             <div className="Queues__Options">
-                <QueueItem name="All Tickets" value="4k" />
+                <QueueItem name="All Tickets" value="4k" isActive="true"/>
                 <QueueItem name="Priority" value="2k" />
                 <QueueItem name="Unresponded" value="2k" />
                 <QueueItem name="Pending Tickets" value="3k" />

@@ -22,3 +22,7 @@
 .QueueItem__value {
     margin-right: 20px;
 }
+.active{
+    background-color: #51a3cc;
+    color: white;
+}

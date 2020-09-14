@@ -6,8 +6,8 @@ import { Avatar } from '@material-ui/core';
 const SideBar = () => {
     return (
         <div className="SideBar__container">
-            <Avatar className="SideBar__avatar--orange">JG</Avatar>
-            <Avatar className="SideBar__avatar--purple">IT</Avatar>
+            <Avatar className="SideBar__avatar">JG</Avatar>
+            <Avatar className="SideBar__avatar">IT</Avatar>
         </div>
     );
 };

@@ -1,0 +1,18 @@
+.TicketItem__container{
+    border-right: 1px solid #e6e8e8;
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.TicketItem__container > div{
+    margin-left: 15px;
+}
+.TicketItem__type{
+    color: #bdbcbc;
+    font-size: 0.9em;
+}
+.TicketItem__text, .TicketItem__name{
+    color: #646566;
+    font-weight: bold;
+}

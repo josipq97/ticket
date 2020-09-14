@@ -58,18 +58,17 @@
 }
 
 .Ticket__bottom{
-    display: flex;
+    display: grid;
+    grid-template-columns: 50px 50px 50px auto auto auto auto 50px;
     background-color: #fafafa;
     height: 50px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
 .pinned, .favourite, .more{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50px;
     box-sizing: border-box;
     border-right: 1px solid #e6e8e8;
     height: 100%;

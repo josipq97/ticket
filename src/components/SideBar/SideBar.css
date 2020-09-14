@@ -8,10 +8,6 @@
     box-sizing: border-box;
     border-right: 1px solid #4a4a4a ;
 }
-.SideBar__avatar--orange {
-    margin: 5px 0px;
-    background-color: #ed938b;
-}
-.SideBar__avatar--purple{
-    margin: 5px 0px;
+.SideBar__avatar{
+    margin: 10px 0px;
 }
