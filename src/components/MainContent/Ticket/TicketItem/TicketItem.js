@@ -1,17 +1,8 @@
 import React from 'react';
 import "./TicketItem.css"
-import { Avatar } from '@material-ui/core';
+import Avatar from "../../../Avatar/Avatar"
 
 const TicketItem = ({type, text, img, name}) => {
-    const getInitials = name => {
-        let initials = "";
-        const splitedName = name.split(" ");
-        for (let i = 0; i < splitedName.length; i++) {
-            initials += splitedName[i][0];        
-        }
-        return initials;
-    }
-
     if(type==="pinned" || type==="favourite" || type==="more"){
         return (
             <div className={type}>
@@ -22,7 +13,7 @@ const TicketItem = ({type, text, img, name}) => {
     else if(type==="Asigned to" || type==="Raised By"){
         return (
             <div className="TicketItem__container">
-                 <Avatar style={{width:"35px", height:"35px", fontSize: "0.9em"}} className="TicketItem__userIcon">{getInitials(name)}</Avatar>
+                 <Avatar clss="TicketItem__avatar" name={name}></Avatar>
                  <div>
                      <p className="TicketItem__type">{type}</p>
                      <p className="TicketItem__name">{name}</p>                      

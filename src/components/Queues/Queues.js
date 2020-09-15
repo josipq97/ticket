@@ -9,7 +9,7 @@ const Queues = () => {
             <header>
                 <div>
                     <h4>QUEUES</h4>
-                    <i class="fas fa-cog"></i>
+                    <i className="fas fa-cog"></i>
                 </div>
                 <h3>+</h3>
             </header>

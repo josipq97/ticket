@@ -11,11 +11,11 @@ const Header = () => {
             <input className="Header__searchBox" type="text" placeholder="Search Tickets"/>
             <div>
                 <button className="Header__menuButton">
-                    <i class="fas fa-user"></i>
-                    <i class="fas fa-chevron-down"></i>
+                    <i className="fas fa-user"></i>
+                    <i className="fas fa-chevron-down"></i>
                 </button>
                 <button className="Header__notificationButton">
-                    <i class="fas fa-bell"></i>
+                    <i className="fas fa-bell"></i>
                 </button>
             </div>
         </div>

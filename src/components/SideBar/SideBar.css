@@ -10,4 +10,8 @@
 }
 .SideBar__avatar{
     margin: 10px 0px;
+    background-color: thistle;
+    width: 40px;
+    height: 40px;
+    font-size: 1.1em; 
 }

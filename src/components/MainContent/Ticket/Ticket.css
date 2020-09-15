@@ -2,6 +2,7 @@
     width: 90%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
+    margin: 10px 0px;
 }
 
 .Ticket__top{
@@ -15,7 +16,7 @@
 .Ticket__id__container{
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: 150px;
     margin-top: 5px;
 }
 
@@ -26,7 +27,6 @@
 }
 .Ticket__top__status{
     font-size: 0.8em;
-    background-color: #0066cc;
     color: white;
     text-align: center;
     padding: 3px 0px;
@@ -85,4 +85,14 @@
 }
 .favourite i{
     font-size: 1.3em;
+}
+
+.OPEN{
+    background-color: #0066cc;
+}
+.NEW{
+    background-color: #ff9900;
+}
+.SOLVED{
+    background-color: #98cc02;
 }

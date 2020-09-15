@@ -1,13 +1,13 @@
 import React from 'react';
 import "./SideBar.css";
-import { Avatar } from '@material-ui/core';
+import Avatar from "../Avatar/Avatar"
 
 
 const SideBar = () => {
     return (
         <div className="SideBar__container">
-            <Avatar className="SideBar__avatar">JG</Avatar>
-            <Avatar className="SideBar__avatar">IT</Avatar>
+            <Avatar clss="SideBar__avatar" name="Josip Glasnovic"></Avatar>
+            <Avatar clss="SideBar__avatar" name="I T"></Avatar>
         </div>
     );
 };

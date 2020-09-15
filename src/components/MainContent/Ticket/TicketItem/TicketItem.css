@@ -16,3 +16,9 @@
     color: #646566;
     font-weight: bold;
 }
+.TicketItem__avatar{
+    background-color: turquoise;
+    width: 35px;
+    height: 35px;
+    font-size: 0.9em;
+}
